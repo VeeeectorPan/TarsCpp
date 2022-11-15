@@ -1,0 +1,10 @@
+
+module XG
+{
+
+interface GameService
+{
+    int testHello(string req, out string rsp);
+};
+
+}; 

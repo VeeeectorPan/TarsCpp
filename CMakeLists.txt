@@ -55,4 +55,5 @@ add_subdirectory(examples)
 add_subdirectory(unit-test)
 ENDIF()
 
-
+add_subdirectory(GameServer)
+add_subdirectory(GameServerClient)

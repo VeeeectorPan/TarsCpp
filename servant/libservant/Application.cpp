@@ -1185,7 +1185,7 @@ void Application::initializeServer()
 	    __out__.info()  << OUT_LINE << "\nwarning:netThreadNum < 1." << endl;
     }
 
-    //网络线程的配置数目不能15个
+    //网络线程的配置数目不能超过15个
     if (ServerConfig::NetThread > 15)
     {
         ServerConfig::NetThread = 15;

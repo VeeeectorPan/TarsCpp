@@ -1,0 +1,1 @@
+gen_cmake_server(XG GameServer)
